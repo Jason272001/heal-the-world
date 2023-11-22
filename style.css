@@ -44,12 +44,14 @@
 .body {
     animation-delay: 15s;
     transform: translate(-50%, -50%);
+    margin-top: 15vw;
 }
 
 .happy {
     position: absolute;
     z-index: 4;
     margin-left: -27vw;
+    animation-delay: 6s;
 }
 
 .frame {
@@ -104,6 +106,16 @@
 .bg {
     background-image: url(bg.jpg);
     overflow: hidden;
+}
+
+.text2 {
+    position: absolute;
+    font-size: 1vw;
+    color: aqua;
+    width: 30vw;
+    margin-left: 39vw;
+    margin-top: 1vw;
+    z-index: 8;
 }
 
 .text1 {
